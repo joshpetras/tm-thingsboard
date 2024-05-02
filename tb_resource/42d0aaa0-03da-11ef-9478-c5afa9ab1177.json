@@ -17,7 +17,10 @@
       }
     },
     "etag" : "98cf5ca8c7518d35e57c7c5646473ca1e92fa1f183c73342bc08797cceee9bee",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "42d0aaa0-03da-11ef-9478-c5afa9ab1177"
+    },
     "fileName" : "606blue.JPG",
     "id" : {
       "entityType" : "TB_RESOURCE",

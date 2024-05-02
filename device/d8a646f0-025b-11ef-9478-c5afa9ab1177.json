@@ -4,7 +4,7 @@
     "additionalInfo" : null,
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "e4658210-0258-11ef-9478-c5afa9ab1177"
+      "id" : "f351d560-08a4-11ef-a8ed-3559d8db17ab"
     },
     "deviceData" : {
       "configuration" : {
@@ -18,7 +18,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "4955a830-0259-11ef-9478-c5afa9ab1177"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "d8a646f0-025b-11ef-9478-c5afa9ab1177"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -77,7 +80,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1714664262190,
+      "lastUpdateTs" : 1714684855732,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -93,8 +96,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1714664262190,
-      "longValue" : 1714664262190,
+      "lastUpdateTs" : 1714684855732,
+      "longValue" : 1714684855730,
       "strValue" : null
     }, {
       "booleanValue" : null,
@@ -109,8 +112,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1714663933850,
-      "longValue" : 1714663933763,
+      "lastUpdateTs" : 1714684532067,
+      "longValue" : 1714684531980,
       "strValue" : null
     }, {
       "booleanValue" : null,
