@@ -1,0 +1,142 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e4658210-0258-11ef-9478-c5afa9ab1177"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "4955a830-0259-11ef-9478-c5afa9ab1177"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "f698c020-025b-11ef-9478-c5afa9ab1177"
+    },
+    "label" : null,
+    "name" : "19",
+    "softwareId" : null,
+    "type" : "Token"
+  },
+  "credentials" : {
+    "credentialsId" : "kY6lyuI9WfyYHn0e4voL",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fbd08140-025b-11ef-9478-c5afa9ab1177"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f698c020-025b-11ef-9478-c5afa9ab1177"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ff14e8c0-0259-11ef-9478-c5afa9ab1177"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f698c020-025b-11ef-9478-c5afa9ab1177"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "04c6f810-025c-11ef-9478-c5afa9ab1177"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f698c020-025b-11ef-9478-c5afa9ab1177"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1714664262190,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "categorywork",
+      "lastUpdateTs" : 1714153681252,
+      "longValue" : null,
+      "strValue" : "Painter"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1714664262190,
+      "longValue" : 1714664262190,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityTimeout",
+      "lastUpdateTs" : 1713979056129,
+      "longValue" : 300000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1714663941953,
+      "longValue" : 1714663941816,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "role",
+      "lastUpdateTs" : 1714153653105,
+      "longValue" : null,
+      "strValue" : "Worker"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "subcategorywork",
+      "lastUpdateTs" : 1714153690794,
+      "longValue" : null,
+      "strValue" : "Painter"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "subcontractor",
+      "lastUpdateTs" : 1714153667392,
+      "longValue" : null,
+      "strValue" : "Viebke"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

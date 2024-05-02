@@ -1,0 +1,312 @@
+{
+  "entityType" : "DEVICE_PROFILE",
+  "entity" : {
+    "default" : false,
+    "defaultDashboardId" : null,
+    "defaultEdgeRuleChainId" : null,
+    "defaultQueueName" : null,
+    "defaultRuleChainId" : null,
+    "description" : "TokenMe Token",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "4955a830-0259-11ef-9478-c5afa9ab1177"
+    },
+    "image" : null,
+    "name" : "Token",
+    "profileData" : {
+      "alarms" : [ {
+        "alarmType" : "Request for Help",
+        "clearRule" : {
+          "alarmDetails" : "Alarm cleared near anchor ${lastAnchor}",
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "alarmType",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : 4.0,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            }, {
+              "key" : {
+                "key" : "lastAnchor",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "STRING",
+                "ignoreCase" : true,
+                "operation" : "STARTS_WITH",
+                "value" : {
+                  "defaultValue" : "p",
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "STRING"
+            }, {
+              "key" : {
+                "key" : "mtyp",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "STRING",
+                "ignoreCase" : false,
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : "37",
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "STRING"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : "Alarm triggered near anchor ${lastAnchor}",
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "alarmType",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : 3.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "lastAnchor",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "STRING",
+                  "ignoreCase" : true,
+                  "operation" : "STARTS_WITH",
+                  "value" : {
+                    "defaultValue" : "p",
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "STRING"
+              }, {
+                "key" : {
+                  "key" : "mtyp",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "STRING",
+                  "ignoreCase" : false,
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : "37",
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "STRING"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "cfc69545-3f10-a0f4-5b41-290b86b32ddd",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      }, {
+        "alarmType" : "Fall Detected",
+        "clearRule" : {
+          "alarmDetails" : "Alarm triggered near anchor ${lastAnchor}",
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "alarmType",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "NUMERIC",
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : 2.0,
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "NUMERIC"
+            }, {
+              "key" : {
+                "key" : "lastAnchor",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "STRING",
+                "ignoreCase" : true,
+                "operation" : "STARTS_WITH",
+                "value" : {
+                  "defaultValue" : "p",
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "STRING"
+            }, {
+              "key" : {
+                "key" : "mtyp",
+                "type" : "TIME_SERIES"
+              },
+              "predicate" : {
+                "type" : "STRING",
+                "ignoreCase" : false,
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : "37",
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "STRING"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "CRITICAL" : {
+            "alarmDetails" : "Alarm triggered near anchor ${lastAnchor}",
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "alarmType",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "NUMERIC",
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : 1.0,
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "NUMERIC"
+              }, {
+                "key" : {
+                  "key" : "lastAnchor",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "STRING",
+                  "ignoreCase" : true,
+                  "operation" : "STARTS_WITH",
+                  "value" : {
+                    "defaultValue" : "p",
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "STRING"
+              }, {
+                "key" : {
+                  "key" : "mtyp",
+                  "type" : "TIME_SERIES"
+                },
+                "predicate" : {
+                  "type" : "STRING",
+                  "ignoreCase" : false,
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : "37",
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "STRING"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "a393fc53-41ef-6ead-1d7a-bcefb386b71f",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
+      } ],
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "provisionConfiguration" : {
+        "type" : "DISABLED",
+        "provisionDeviceSecret" : null
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT",
+        "deviceAttributesSubscribeTopic" : "v1/devices/me/attributes",
+        "deviceAttributesTopic" : "v1/devices/me/attributes",
+        "deviceTelemetryTopic" : "v1/devices/me/telemetry",
+        "sendAckOnValidationException" : false,
+        "sparkplug" : false,
+        "sparkplugAttributesMetricNames" : [ "Properties/*", "Device Control/*", "Node Control/*" ],
+        "transportPayloadTypeConfiguration" : {
+          "transportPayloadType" : "JSON"
+        }
+      }
+    },
+    "provisionDeviceKey" : null,
+    "provisionType" : "DISABLED",
+    "softwareId" : null,
+    "transportType" : "MQTT",
+    "type" : "DEFAULT"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

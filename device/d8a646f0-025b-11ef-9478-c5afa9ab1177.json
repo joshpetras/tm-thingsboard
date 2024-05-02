@@ -1,0 +1,142 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e4658210-0258-11ef-9478-c5afa9ab1177"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "MQTT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "4955a830-0259-11ef-9478-c5afa9ab1177"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "d8a646f0-025b-11ef-9478-c5afa9ab1177"
+    },
+    "label" : null,
+    "name" : "4",
+    "softwareId" : null,
+    "type" : "Token"
+  },
+  "credentials" : {
+    "credentialsId" : "T9E2FSiRqo0TTxgfGgDZ",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "fbd08140-025b-11ef-9478-c5afa9ab1177"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "d8a646f0-025b-11ef-9478-c5afa9ab1177"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "ff14e8c0-0259-11ef-9478-c5afa9ab1177"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "d8a646f0-025b-11ef-9478-c5afa9ab1177"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "04c6f810-025c-11ef-9478-c5afa9ab1177"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "d8a646f0-025b-11ef-9478-c5afa9ab1177"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1714664262190,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "categorywork",
+      "lastUpdateTs" : 1714153376568,
+      "longValue" : null,
+      "strValue" : "MEP"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1714664262190,
+      "longValue" : 1714664262190,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityTimeout",
+      "lastUpdateTs" : 1713979043226,
+      "longValue" : 300000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1714663933850,
+      "longValue" : 1714663933763,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "role",
+      "lastUpdateTs" : 1714153333599,
+      "longValue" : null,
+      "strValue" : "Sub Supervisor"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "subcategorywork",
+      "lastUpdateTs" : 1714153388566,
+      "longValue" : null,
+      "strValue" : "Mechanical"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "subcontractor",
+      "lastUpdateTs" : 1714153353271,
+      "longValue" : null,
+      "strValue" : "PSC"
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
