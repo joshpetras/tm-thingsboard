@@ -4,9 +4,9 @@
     "assignedCustomers" : [ {
       "customerId" : {
         "entityType" : "CUSTOMER",
-        "id" : "f351d560-08a4-11ef-a8ed-3559d8db17ab"
+        "id" : "e4658210-0258-11ef-9478-c5afa9ab1177"
       },
-      "title" : "Demo",
+      "title" : "JDP Consulting LLC",
       "public" : false
     } ],
     "configuration" : {
@@ -21,7 +21,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "7a58ca00-08a5-11ef-a8ed-3559d8db17ab",
+              "deviceId" : "ff14e8c0-0259-11ef-9478-c5afa9ab1177",
               "dataKeys" : [ {
                 "name" : "temperature",
                 "type" : "timeseries",
@@ -272,7 +272,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "7a38bee0-08a5-11ef-a8ed-3559d8db17ab",
+              "deviceId" : "fbd08140-025b-11ef-9478-c5afa9ab1177",
               "dataKeys" : [ {
                 "name" : "temperature",
                 "type" : "timeseries",
@@ -574,7 +574,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "77eafe50-08a5-11ef-a8ed-3559d8db17ab",
+              "deviceId" : "04c6f810-025c-11ef-9478-c5afa9ab1177",
               "dataKeys" : [ {
                 "name" : "temperature",
                 "type" : "timeseries",
@@ -876,7 +876,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "7a58ca00-08a5-11ef-a8ed-3559d8db17ab",
+              "deviceId" : "ff14e8c0-0259-11ef-9478-c5afa9ab1177",
               "dataKeys" : [ {
                 "name" : "humidity",
                 "type" : "timeseries",
@@ -1178,7 +1178,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "7a38bee0-08a5-11ef-a8ed-3559d8db17ab",
+              "deviceId" : "fbd08140-025b-11ef-9478-c5afa9ab1177",
               "dataKeys" : [ {
                 "name" : "humidity",
                 "type" : "timeseries",
@@ -1480,7 +1480,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "77eafe50-08a5-11ef-a8ed-3559d8db17ab",
+              "deviceId" : "04c6f810-025c-11ef-9478-c5afa9ab1177",
               "dataKeys" : [ {
                 "name" : "humidity",
                 "type" : "timeseries",
@@ -2764,10 +2764,7 @@
         "dashboardCss" : ""
       }
     },
-    "externalId" : {
-      "entityType" : "DASHBOARD",
-      "id" : "70b6c6b0-025f-11ef-9478-c5afa9ab1177"
-    },
+    "externalId" : null,
     "id" : {
       "entityType" : "DASHBOARD",
       "id" : "70b6c6b0-025f-11ef-9478-c5afa9ab1177"

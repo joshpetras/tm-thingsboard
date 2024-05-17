@@ -7,10 +7,7 @@
     "defaultQueueName" : null,
     "defaultRuleChainId" : null,
     "description" : "TokenMe Token",
-    "externalId" : {
-      "entityType" : "DEVICE_PROFILE",
-      "id" : "4955a830-0259-11ef-9478-c5afa9ab1177"
-    },
+    "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",

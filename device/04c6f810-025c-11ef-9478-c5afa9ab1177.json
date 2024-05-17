@@ -8,7 +8,7 @@
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "f351d560-08a4-11ef-a8ed-3559d8db17ab"
+      "id" : "e4658210-0258-11ef-9478-c5afa9ab1177"
     },
     "deviceData" : {
       "configuration" : {
@@ -22,10 +22,7 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "444badd0-0259-11ef-9478-c5afa9ab1177"
     },
-    "externalId" : {
-      "entityType" : "DEVICE",
-      "id" : "04c6f810-025c-11ef-9478-c5afa9ab1177"
-    },
+    "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -144,7 +141,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1714605007499,
+      "lastUpdateTs" : 1715813873549,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -168,8 +165,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1714602342039,
-      "longValue" : 1714602342039,
+      "lastUpdateTs" : 1715811212719,
+      "longValue" : 1715811212719,
       "strValue" : null
     }, {
       "booleanValue" : null,
@@ -184,23 +181,23 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1714685731695,
-      "longValue" : 1714685731679,
+      "lastUpdateTs" : 1715953776244,
+      "longValue" : 1715953776240,
       "strValue" : null
     }, {
       "booleanValue" : null,
-      "doubleValue" : 41.91360167201203,
+      "doubleValue" : 41.913611651877986,
       "jsonValue" : null,
       "key" : "latitude",
-      "lastUpdateTs" : 1714060325840,
+      "lastUpdateTs" : 1715787621478,
       "longValue" : null,
       "strValue" : null
     }, {
       "booleanValue" : null,
-      "doubleValue" : -87.68210310539199,
+      "doubleValue" : -87.68210042317153,
       "jsonValue" : null,
       "key" : "longitude",
-      "lastUpdateTs" : 1714060325840,
+      "lastUpdateTs" : 1715787621478,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -221,18 +218,18 @@
       "strValue" : null
     }, {
       "booleanValue" : null,
-      "doubleValue" : 0.14927087650011367,
+      "doubleValue" : 0.1442499345848573,
       "jsonValue" : null,
       "key" : "xPos",
-      "lastUpdateTs" : 1714661295023,
+      "lastUpdateTs" : 1714754056875,
       "longValue" : null,
       "strValue" : null
     }, {
       "booleanValue" : null,
-      "doubleValue" : 0.41276866749230157,
+      "doubleValue" : 0.41471893588643705,
       "jsonValue" : null,
       "key" : "yPos",
-      "lastUpdateTs" : 1714661295023,
+      "lastUpdateTs" : 1714754056875,
       "longValue" : null,
       "strValue" : null
     } ],

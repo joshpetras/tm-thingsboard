@@ -8,7 +8,7 @@
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
-      "id" : "f351d560-08a4-11ef-a8ed-3559d8db17ab"
+      "id" : "e4658210-0258-11ef-9478-c5afa9ab1177"
     },
     "deviceData" : {
       "configuration" : {
@@ -22,10 +22,7 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "444badd0-0259-11ef-9478-c5afa9ab1177"
     },
-    "externalId" : {
-      "entityType" : "DEVICE",
-      "id" : "fbd08140-025b-11ef-9478-c5afa9ab1177"
-    },
+    "externalId" : null,
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -144,7 +141,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1714679315622,
+      "lastUpdateTs" : 1715652017407,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -168,8 +165,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1714676635701,
-      "longValue" : 1714676635701,
+      "lastUpdateTs" : 1715649332358,
+      "longValue" : 1715649332358,
       "strValue" : null
     }, {
       "booleanValue" : null,
@@ -184,8 +181,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1714684739140,
-      "longValue" : 1714684739137,
+      "lastUpdateTs" : 1715954692659,
+      "longValue" : 1715954692639,
       "strValue" : null
     }, {
       "booleanValue" : null,
@@ -221,18 +218,18 @@
       "strValue" : null
     }, {
       "booleanValue" : null,
-      "doubleValue" : 0.5440656630676461,
+      "doubleValue" : 0.541555192110018,
       "jsonValue" : null,
       "key" : "xPos",
-      "lastUpdateTs" : 1714181096631,
+      "lastUpdateTs" : 1714754065075,
       "longValue" : null,
       "strValue" : null
     }, {
       "booleanValue" : null,
-      "doubleValue" : 0.15116866214360722,
+      "doubleValue" : 0.1511686621436071,
       "jsonValue" : null,
       "key" : "yPos",
-      "lastUpdateTs" : 1714181096631,
+      "lastUpdateTs" : 1714754065075,
       "longValue" : null,
       "strValue" : null
     } ],

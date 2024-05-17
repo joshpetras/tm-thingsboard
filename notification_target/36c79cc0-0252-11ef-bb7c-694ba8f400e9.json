@@ -8,10 +8,7 @@
         "type" : "ORIGINATOR_ENTITY_OWNER_USERS"
       }
     },
-    "externalId" : {
-      "entityType" : "NOTIFICATION_TARGET",
-      "id" : "36c79cc0-0252-11ef-bb7c-694ba8f400e9"
-    },
+    "externalId" : null,
     "id" : {
       "entityType" : "NOTIFICATION_TARGET",
       "id" : "36c79cc0-0252-11ef-bb7c-694ba8f400e9"

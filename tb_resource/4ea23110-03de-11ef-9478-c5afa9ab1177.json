@@ -17,10 +17,7 @@
       }
     },
     "etag" : "29c030087dc119792944306454d1991c01d033a8461b99533e914aebb22c75f7",
-    "externalId" : {
-      "entityType" : "TB_RESOURCE",
-      "id" : "4ea23110-03de-11ef-9478-c5afa9ab1177"
-    },
+    "externalId" : null,
     "fileName" : "606blue.png",
     "id" : {
       "entityType" : "TB_RESOURCE",
