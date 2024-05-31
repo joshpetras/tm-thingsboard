@@ -708,7 +708,7 @@
             "widgetStyle" : { },
             "widgetCss" : "",
             "pageSize" : 1024,
-            "noDataDisplayMessage" : "No tokens last seen here"
+            "noDataDisplayMessage" : "No active tokens here"
           },
           "row" : 0,
           "col" : 0,
@@ -821,7 +821,7 @@
             "widgetStyle" : { },
             "widgetCss" : "",
             "pageSize" : 1024,
-            "noDataDisplayMessage" : "No tokens last seen here"
+            "noDataDisplayMessage" : "No active tokens here"
           },
           "row" : 0,
           "col" : 0,
@@ -934,7 +934,7 @@
             "widgetStyle" : { },
             "widgetCss" : "",
             "pageSize" : 1024,
-            "noDataDisplayMessage" : "No tokens last seen here"
+            "noDataDisplayMessage" : "No active tokens here"
           },
           "row" : 0,
           "col" : 0,
