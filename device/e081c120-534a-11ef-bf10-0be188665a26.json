@@ -4,7 +4,7 @@
     "additionalInfo" : {
       "gateway" : false,
       "overwriteActivityTime" : false,
-      "description" : "Milesight LoRaWAN Gateway UG56-L04EU-868M"
+      "description" : "Milesight LoRaWAN Gateway UG56-915M"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -26,15 +26,15 @@
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
-      "id" : "abade560-0259-11ef-9478-c5afa9ab1177"
+      "id" : "e081c120-534a-11ef-bf10-0be188665a26"
     },
-    "label" : "Milesight Gateway EUI-24E124FFFEF83FA8",
-    "name" : "24E124FFFEF83FA8",
+    "label" : "Milesight Gateway EUI-24E124FFFEF8B86E",
+    "name" : "24E124FFFEF8B86E",
     "softwareId" : null,
     "type" : "default"
   },
   "credentials" : {
-    "credentialsId" : "3qPiXw2TdhYfcCdZWBAD",
+    "credentialsId" : "w6govD71bEEliIFuKKBn",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
@@ -42,35 +42,11 @@
     "additionalInfo" : null,
     "from" : {
       "entityType" : "DEVICE",
-      "id" : "fbd08140-025b-11ef-9478-c5afa9ab1177"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "abade560-0259-11ef-9478-c5afa9ab1177"
-    },
-    "type" : "Contains",
-    "typeGroup" : "COMMON"
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "DEVICE",
       "id" : "ff14e8c0-0259-11ef-9478-c5afa9ab1177"
     },
     "to" : {
       "entityType" : "DEVICE",
-      "id" : "abade560-0259-11ef-9478-c5afa9ab1177"
-    },
-    "type" : "Contains",
-    "typeGroup" : "COMMON"
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "DEVICE",
-      "id" : "04c6f810-025c-11ef-9478-c5afa9ab1177"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "abade560-0259-11ef-9478-c5afa9ab1177"
+      "id" : "e081c120-534a-11ef-bf10-0be188665a26"
     },
     "type" : "Contains",
     "typeGroup" : "COMMON"
@@ -81,7 +57,7 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1718827533119,
+      "lastUpdateTs" : 1722876886020,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -89,32 +65,32 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1718827533118,
-      "longValue" : 1718827533118,
+      "lastUpdateTs" : 1722877569171,
+      "longValue" : 0,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1722877814764,
-      "longValue" : 1722877814113,
+      "lastUpdateTs" : 1722877787742,
+      "longValue" : 1722877785990,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1722435333954,
-      "longValue" : 1722435333954,
+      "lastUpdateTs" : 1722876886019,
+      "longValue" : 1722876886019,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1720684844219,
-      "longValue" : 1720684844219,
+      "lastUpdateTs" : 1722877527905,
+      "longValue" : 0,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

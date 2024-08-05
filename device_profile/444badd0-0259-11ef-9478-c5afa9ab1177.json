@@ -296,6 +296,71 @@
         "propagateRelationTypes" : null,
         "propagateToOwner" : false,
         "propagateToTenant" : false
+      }, {
+        "alarmType" : "PIR Jitter Protection",
+        "clearRule" : {
+          "alarmDetails" : null,
+          "condition" : {
+            "condition" : [ {
+              "key" : {
+                "key" : "mtyp",
+                "type" : "ATTRIBUTE"
+              },
+              "predicate" : {
+                "type" : "STRING",
+                "ignoreCase" : false,
+                "operation" : "EQUAL",
+                "value" : {
+                  "defaultValue" : "21",
+                  "dynamicValue" : null,
+                  "userValue" : null
+                }
+              },
+              "value" : null,
+              "valueType" : "STRING"
+            } ],
+            "spec" : {
+              "type" : "SIMPLE"
+            }
+          },
+          "dashboardId" : null,
+          "schedule" : null
+        },
+        "createRules" : {
+          "WARNING" : {
+            "alarmDetails" : null,
+            "condition" : {
+              "condition" : [ {
+                "key" : {
+                  "key" : "mtyp",
+                  "type" : "ATTRIBUTE"
+                },
+                "predicate" : {
+                  "type" : "STRING",
+                  "ignoreCase" : false,
+                  "operation" : "EQUAL",
+                  "value" : {
+                    "defaultValue" : "36",
+                    "dynamicValue" : null,
+                    "userValue" : null
+                  }
+                },
+                "value" : null,
+                "valueType" : "STRING"
+              } ],
+              "spec" : {
+                "type" : "SIMPLE"
+              }
+            },
+            "dashboardId" : null,
+            "schedule" : null
+          }
+        },
+        "id" : "0be1f577-b047-9da3-ddee-c94261d09256",
+        "propagate" : false,
+        "propagateRelationTypes" : null,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false
       } ],
       "configuration" : {
         "type" : "DEFAULT"
