@@ -105,17 +105,16 @@
         "layoutY" : 151
       },
       "configuration" : {
-        "direction" : "TO",
+        "direction" : "FROM",
         "entityType" : "DEVICE",
         "entityNamePattern" : "$[tokenName]",
         "entityTypePattern" : "Token",
         "relationType" : "Contains",
         "createEntityIfNotExists" : true,
         "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : true,
-        "entityCacheExpiration" : 300
+        "changeOriginatorToRelatedEntity" : true
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,

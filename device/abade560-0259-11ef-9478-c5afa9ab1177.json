@@ -4,7 +4,7 @@
     "additionalInfo" : {
       "gateway" : false,
       "overwriteActivityTime" : false,
-      "description" : "Milesight LoRaWAN Gateway UG56-L04EU-868M"
+      "description" : "Milesight LoRaWAN EU Gateway UG56-L04EU-868M"
     },
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -28,7 +28,7 @@
       "entityType" : "DEVICE",
       "id" : "abade560-0259-11ef-9478-c5afa9ab1177"
     },
-    "label" : "Milesight Gateway EUI-24E124FFFEF83FA8",
+    "label" : "Milesight EU Gateway EUI-24E124FFFEF83FA8",
     "name" : "24E124FFFEF83FA8",
     "softwareId" : null,
     "type" : "default"
@@ -77,11 +77,11 @@
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : true,
+      "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1718827533119,
+      "lastUpdateTs" : 1723130691570,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -89,16 +89,16 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1718827533118,
-      "longValue" : 1718827533118,
+      "lastUpdateTs" : 1723130691570,
+      "longValue" : 1723130691570,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1722877814764,
-      "longValue" : 1722877814113,
+      "lastUpdateTs" : 1723130042756,
+      "longValue" : 1723130039741,
       "strValue" : null
     }, {
       "booleanValue" : null,
@@ -113,8 +113,8 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1720684844219,
-      "longValue" : 1720684844219,
+      "lastUpdateTs" : 1723130039748,
+      "longValue" : 1723130039748,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]

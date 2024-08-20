@@ -299,17 +299,16 @@
         "layoutY" : 570
       },
       "configuration" : {
-        "direction" : "FROM",
+        "direction" : "TO",
         "entityType" : "DEVICE",
         "entityNamePattern" : "$[deviceName]",
         "entityTypePattern" : "Anchor",
         "relationType" : "Contains",
         "createEntityIfNotExists" : true,
         "removeCurrentRelations" : false,
-        "changeOriginatorToRelatedEntity" : true,
-        "entityCacheExpiration" : 300
+        "changeOriginatorToRelatedEntity" : true
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -353,9 +352,10 @@
         "layoutY" : 247
       },
       "configuration" : {
-        "ruleChainId" : "63d648a0-0258-11ef-9478-c5afa9ab1177"
+        "ruleChainId" : "63d648a0-0258-11ef-9478-c5afa9ab1177",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -399,9 +399,10 @@
         "layoutY" : 340
       },
       "configuration" : {
-        "ruleChainId" : "6d7b00d0-0258-11ef-9478-c5afa9ab1177"
+        "ruleChainId" : "6d7b00d0-0258-11ef-9478-c5afa9ab1177",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -421,9 +422,10 @@
         "layoutY" : 436
       },
       "configuration" : {
-        "ruleChainId" : "77eb1f50-0258-11ef-9478-c5afa9ab1177"
+        "ruleChainId" : "77eb1f50-0258-11ef-9478-c5afa9ab1177",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -443,9 +445,10 @@
         "layoutY" : 526
       },
       "configuration" : {
-        "ruleChainId" : "7e345070-0258-11ef-9478-c5afa9ab1177"
+        "ruleChainId" : "7e345070-0258-11ef-9478-c5afa9ab1177",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -465,9 +468,10 @@
         "layoutY" : 612
       },
       "configuration" : {
-        "ruleChainId" : "8577e720-0258-11ef-9478-c5afa9ab1177"
+        "ruleChainId" : "8577e720-0258-11ef-9478-c5afa9ab1177",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -487,9 +491,10 @@
         "layoutY" : 689
       },
       "configuration" : {
-        "ruleChainId" : "8bffa7e0-0258-11ef-9478-c5afa9ab1177"
+        "ruleChainId" : "8bffa7e0-0258-11ef-9478-c5afa9ab1177",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -509,9 +514,10 @@
         "layoutY" : 785
       },
       "configuration" : {
-        "ruleChainId" : "92d8bcf0-0258-11ef-9478-c5afa9ab1177"
+        "ruleChainId" : "92d8bcf0-0258-11ef-9478-c5afa9ab1177",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -531,9 +537,10 @@
         "layoutY" : 867
       },
       "configuration" : {
-        "ruleChainId" : "99f9b070-0258-11ef-9478-c5afa9ab1177"
+        "ruleChainId" : "99f9b070-0258-11ef-9478-c5afa9ab1177",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
