@@ -68,9 +68,9 @@
       },
       "configuration" : {
         "persistAlarmRulesState" : false,
-        "fetchAlarmRulesStateOnStart" : false
+        "fetchAlarmRulesStateOnStart" : "false"
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,

@@ -32,7 +32,8 @@
       "id" : "ece1fc00-025a-11ef-9478-c5afa9ab1177"
     },
     "type" : "Contains",
-    "typeGroup" : "COMMON"
+    "typeGroup" : "COMMON",
+    "version" : 0
   }, {
     "additionalInfo" : null,
     "from" : {
@@ -44,7 +45,8 @@
       "id" : "04c6f810-025c-11ef-9478-c5afa9ab1177"
     },
     "type" : "Contains",
-    "typeGroup" : "COMMON"
+    "typeGroup" : "COMMON",
+    "version" : 0
   } ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]

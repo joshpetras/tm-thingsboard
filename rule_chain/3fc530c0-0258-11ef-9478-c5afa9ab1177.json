@@ -279,7 +279,7 @@
         "persistAlarmRulesState" : true,
         "fetchAlarmRulesStateOnStart" : true
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
